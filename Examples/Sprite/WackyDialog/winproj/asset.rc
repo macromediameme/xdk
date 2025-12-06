@@ -1,0 +1,27 @@
+///////////////////////////////////////////////////////////////////////////
+//
+// Asset.rc         $Revision: 1 $
+//
+// Copyright © 1994-2000 Macromedia, Inc.  All Rights Reserved
+//
+// You may utilize this source file to create and compile object code for use 
+// within products you create.  THIS CODE IS PROVIDED "AS IS", WITHOUT 
+// WARRANTY OF ANY KIND, AND MACROMEDIA DISCLAIMS ALL IMPLIED WARRANTIES 
+// INCLUDING, BUT NOT LIMITED TO, MERCHANTABILITY, FITNESS FOR A PARTICULAR 
+// PURPOSE AND NONINFRINGEMENT.  IN NO EVENT WILL MACROMEDIA BE LIABLE TO YOU 
+// FOR ANY CONSEQUENTIAL, INDIRECT OR INCIDENTAL DAMAGES ARISING OUT OF YOUR 
+// USE OR INABILITY TO USE THIS CODE.
+//
+///////////////////////////////////////////////////////////////////////////
+
+#define VER_FILETYPE            VFT_DLL
+#define VER_COMPONENTNAME       "Macromedia Boring Xtra"
+
+#define VER_WINFILENAME         "BoringAsset.X32"
+#define VER_WINMODULENAME       "BoringAsset"
+
+#define VER_PRODUCTNAME         "Macromedia Director"
+
+colorpicon	BITMAP  DISCARDABLE     "CPicon.bmp"
+bwpicon		BITMAP  DISCARDABLE     "bwPicon.bmp"
+
